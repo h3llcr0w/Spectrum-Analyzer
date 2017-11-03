@@ -91,9 +91,9 @@ def calculate_levels(data, chunk,sample_rate):
    return matrix
 
 
-songs=["pistah.wav","kilikki.wav","rockyou.wav","chapati.wav","spirit.wav","pappan.wav","tribe.wav"]
+songs=[""] # Array of songs (.wav)
 while(True):
-  for i in range (0,7):
+  for i in range (0,len(songs):
     song_name="/home/pi/Documents/songs/"+songs[i]
 
 # Audio setup
